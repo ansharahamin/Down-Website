@@ -36,7 +36,21 @@
   border-radius: 50%;
 }
 
-.circle{
+
+.neon{
+      width: 751.9999389648438;
+height: 751.9999389648438;
+top: 92px;
+left: -264px;
+
+opacity: 1;
+border-radius: 10071.43px;
+
+}
+
+
+
+/* .circle{
 
   width: 500px;
   height: 500px;
@@ -46,12 +60,16 @@
   z-index: 0;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
 
-}
+} */
 
 
 .img-mobile {
+width: 288;
+height: 382.3340454101562;
 
-  z-index: 1;           /* keep phone image above */
+
+opacity: 1;
+
 }
 
 .img-with{
@@ -78,15 +96,17 @@ opacity: 1;
 @media only screen and (max-width: 1000px) {
  .clm-rev{
     display: flex;
-
+    flex-direction: column;
+    justify-content: center;
  }
   
- .crcl:{
+ .neon:{
     display: none;
  }
   .img-mobile {
 
     margin : 0,auto,0,auto;
-    display: block;
+    display:flex ;
 }
+
 }
