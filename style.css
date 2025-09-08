@@ -36,16 +36,21 @@
   border-radius: 50%;
 }
 
-.circle {
-  position: absolute;   /* take it out of the normal flow */
-  top: 50%;             /* adjust position */
-  left: 50%;
-  transform: translate(-50%, -50%); /* center it */
-  z-index: 0;           /* put it behind */
+.circle{
+
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+  background: linear-gradient(to bottom right, rgba(184, 68, 255, 1), rgba(255, 0, 106, 1));
+  border: 2px solid black;
+  z-index: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
+
 }
 
+
 .img-mobile {
-  position: relative;
+
   z-index: 1;           /* keep phone image above */
 }
 
@@ -58,24 +63,7 @@ opacity: 1;
 
 }
 
-.crcl:{
-width: 711;
-height: 711;
-top: 339px;
-left: -533.5px;
-angle: -90 deg;
-opacity: 1;
-border-radius: 9522.32px;
 
-}
-/* .img-mobile {
-  width: 288px;
-height: 200px;
-
-
-opacity: 1;
-
-} */
 
    .grad {
       background: linear-gradient(90deg, #A734BD 0%, #FF006A 100%);
@@ -90,7 +78,7 @@ opacity: 1;
 @media only screen and (max-width: 1000px) {
  .clm-rev{
     display: flex;
-    flex-direction: column-reverse;
+
  }
   
  .crcl:{
